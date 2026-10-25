@@ -66,3 +66,38 @@ In this benchmark study, we evaluate 27 spatial clustering methods for spatial d
 | ps | 1.9.3 | System process & memory monitoring | CRAN |
 | stringr | 1.6.0 | String manipulation | CRAN |
 | readr | 2.2.0 | Fast tsv/csv reading (used via write_csv/tibble) | CRAN |
+
+
+
+## Dataset availability and download sources
+
+| Dataset ID | Download Link |
+| ---- | ---- |
+| DLPFC | <https://research.libd.org/spatialLIBD/> |
+| 10X_FFPE_CC | <https://www.10xgenomics.com/datasets/ffpe-human-colorectal-cancer-data-with-human-immuno-oncology-profiling-panel-and-custom-add-on-1-standard> |
+| 10X_BC_1 | <https://www.10xgenomics.com/datasets/human-breast-cancer-targeted-immunology-panel-1-standard-1-2-0> |
+| 10X_BC_2 | <https://www.10xgenomics.com/datasets/human-breast-cancer-ductal-carcinoma-in-situ-invasive-carcinoma-ffpe-1-standard-1-3-0> |
+| 10X_LC_1 | <https://www.10xgenomics.com/datasets/human-lung-cancer-ffpe-2-standard> |
+| 10X_LC_2 | <https://www.10xgenomics.com/datasets/human-lung-cancer-11-mm-capture-area-ffpe-2-standard> |
+| ST_PC_1 | <https://data.mendeley.com/datasets/mdt8n2xgf4/1> |
+| ST_PC_2 | <https://data.mendeley.com/datasets/mdt8n2xgf4/1> |
+| ST_PC_3 | <https://data.mendeley.com/datasets/mdt8n2xgf4/1> |
+| ST_BC | <https://zenodo.org/records/4751624> |
+| Slide_KN_1 | <https://portal.hubmapconsortium.org/browse/HBM232.MBNR.586> |
+| Slide_KN_2 | <https://portal.hubmapconsortium.org/browse/HBM478.VWXX.362> |
+| Slide_KN_3 | <https://portal.hubmapconsortium.org/browse/HBM965.PSNC.855> |
+| SNARE_Lung_1 | <https://portal.hubmapconsortium.org/browse/HBM477.TMMN.763> |
+| SNARE_Lung_2 | <https://portal.hubmapconsortium.org/browse/HBM582.RKVK.974> |
+| SNARE_Lung_3 | <https://portal.hubmapconsortium.org/browse/HBM285.MWNX.593> |
+| SNARE_Lung_4 | <https://portal.hubmapconsortium.org/browse/HBM753.NSKJ.788> |
+| STARmap_1 | <https://github.com/libedeutch/BOOST-HMI/blob/main/data> |
+| STARmap_2 | <https://zenodo.org/records/7332091> |
+| STARmap_3 | <https://zenodo.org/record/7830764> |
+| Xenium_BC | <https://www.10xgenomics.com/products/xenium-in-situ/preview-dataset-human-breast> |
+| Xenium_Lung_1 | <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE250346> |
+| Xenium_Lung_2 | <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE250346> |
+| Xenium_Lung_3 | <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE250346> |
+| Xenium_Lung_4 | <https://www.10xgenomics.com/datasets/ffpe-human-lung-cancer-data-with-human-immuno-oncology-profiling-panel-and-custom-add-on-1-standard> |
+| Xenium_Skin | <https://www.10xgenomics.com/datasets/xenium-prime-ffpe-human-skin> |
+| Xenium_Ovary | <https://www.10xgenomics.com/datasets/ffpe-human-ovarian-cancer-data-with-human-immuno-oncology-profiling-panel-and-custom-add-on-1-standard> |
+| Xenium_CC | <https://www.10xgenomics.com/datasets/ffpe-human-colorectal-cancer-data-with-human-immuno-oncology-profiling-panel-and-custom-add-on-1-standard> |
