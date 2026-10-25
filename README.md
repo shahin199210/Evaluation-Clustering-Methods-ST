@@ -1,12 +1,10 @@
-# Evaluation-Clustering-Methods-ST
-Evaluation clustering methods for spatial domain identification and SVG detection in spatial transcriptomics
 
 
-## Overview
+# Overview
 In this benchmark study, we evaluate 27 spatial clustering methods for spatial domain identification and investigate how clustering selection shapes downstream spatially variable gene (SVG) discovery. We assemble 39 real spatial transcriptomics datasets spanning six sequencing- and imaging-based platforms, including 17 10X Visium, 4 ST, 3 Slide-seq2, 4 SNARE-seq2, 8 Xenium, and 3 STARmap samples, alongside 12 SRTsim-simulated datasets with known ground-truth SVGs. We categorize these 27 algorithms into baseline, core spatial, and modern spatial groups according to their compatibility with diverse spatial transcriptomics data types. We benchmark each method’s spatial domain segmentation performance across four key criteria: segmentation accuracy, replicate stability, cross-platform generality, and computational scalability, and produce an overall performance ranking. To quantify downstream effects, we use global consensus SVG sets as references and compute the sensitivity and specificity of SVGs recovered from each clustering output. We also characterize clustering-associated variation in SVG spatial patterns, spatial autocorrelation, technical artifact rates, gene overlap, and biological functions of the top SVGs. Using simulated data, we compare SVGs derived from clustering results against ground-truth SVGs and contrast SVG-detection performance between clustering-based pipelines and standalone global SVG detectors. We use AUPR, sensitivity–specificity plots, precision–recall curves, and UpSet plots to quantify detection accuracy and shared SVG composition across approaches.
 
 
-## Required software and packages
+# Required software and packages
 
 | Package | Version | Notes | Type |
 | ---- | ---- | ---- | ---- |
