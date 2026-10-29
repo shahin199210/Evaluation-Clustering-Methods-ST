@@ -1,0 +1,81 @@
+=== STDOUT ===
+====== SpatialMGCN SVG Analysis (7 Real Datasets) Start ======
+Input Folder: D:\My_Project_ST\benchmarking of ST platforms\Datasets_Standardized
+Output Folder: D:\My_Project_ST\benchmarking of ST platforms\SVGs_Clustering_Method\Spatial_MGCN
+
+Processing Dataset: 10X_Visium_Lung | Platform: 10X Visium | Target Clusters: 6
+Computing SpatialMGCN graphs (fadj, sadj, graph_nei, graph_neg)...
+
+Training SpatialMGCN for 10X_Visium_Lung
+10X_Visium_Lung | Epoch   0 | Loss: 3.38
+10X_Visium_Lung | Epoch  10 | Loss: nan
+10X_Visium_Lung | Epoch  20 | Loss: 2.19
+10X_Visium_Lung | Epoch  30 | Loss: nan
+10X_Visium_Lung | Epoch  40 | Loss: nan
+10X_Visium_Lung | Epoch  50 | Loss: nan
+10X_Visium_Lung | Epoch  60 | Loss: nan
+10X_Visium_Lung | Epoch  70 | Loss: nan
+10X_Visium_Lung | Epoch  80 | Loss: nan
+10X_Visium_Lung | Epoch  90 | Loss: 3.36
+10X_Visium_Lung | Epoch 100 | Loss: nan
+10X_Visium_Lung | Epoch 110 | Loss: nan
+10X_Visium_Lung | Epoch 120 | Loss: nan
+10X_Visium_Lung | Epoch 130 | Loss: nan
+10X_Visium_Lung | Epoch 140 | Loss: nan
+10X_Visium_Lung | Epoch 150 | Loss: nan
+10X_Visium_Lung | Epoch 160 | Loss: nan
+10X_Visium_Lung | Epoch 170 | Loss: nan
+10X_Visium_Lung | Epoch 180 | Loss: nan
+10X_Visium_Lung | Epoch 190 | Loss: nan
+Completed 10X_Visium_Lung: Significant SVG count (FDR<0.05) = 14751
+
+Processing Dataset: DLPFC_151507 | Platform: DLPFC | Target Clusters: 7
+Computing SpatialMGCN graphs (fadj, sadj, graph_nei, graph_neg)...
+
+Training SpatialMGCN for DLPFC_151507
+DLPFC_151507 | Epoch   0 | Loss: 3.67
+DLPFC_151507 | Epoch  10 | Loss: nan
+DLPFC_151507 | Epoch  20 | Loss: nan
+DLPFC_151507 | Epoch  30 | Loss: 2.95
+DLPFC_151507 | Epoch  40 | Loss: 5.56
+DLPFC_151507 | Epoch  50 | Loss: 2.76
+DLPFC_151507 | Epoch  60 | Loss: nan
+DLPFC_151507 | Epoch  70 | Loss: nan
+DLPFC_151507 | Epoch  80 | Loss: 2.17
+DLPFC_151507 | Epoch  90 | Loss: 5.19
+DLPFC_151507 | Epoch 100 | Loss: 4.33
+DLPFC_151507 | Epoch 110 | Loss: nan
+DLPFC_151507 | Epoch 120 | Loss: nan
+DLPFC_151507 | Epoch 130 | Loss: 4.55
+DLPFC_151507 | Epoch 140 | Loss: 3.82
+DLPFC_151507 | Epoch 150 | Loss: nan
+DLPFC_151507 | Epoch 160 | Loss: nan
+DLPFC_151507 | Epoch 170 | Loss: 6.54
+DLPFC_151507 | Epoch 180 | Loss: 6.19
+DLPFC_151507 | Epoch 190 | Loss: 5.21
+Completed DLPFC_151507: Significant SVG count (FDR<0.05) = 13412
+
+Processing Dataset: Slide-seq2 | Platform: Slide-seq2 | Target Clusters: 7
+Computing SpatialMGCN graphs (fadj, sadj, graph_nei, graph_neg)...
+
+Training SpatialMGCN for Slide-seq2
+
+=== STDERR ===
+C:\Users\alam5\AppData\Local\Programs\Python\Python314\Lib\site-packages\scanpy\_utils\__init__.py:27: FutureWarning: `__version__` is deprecated, use `importlib.metadata.version('anndata')` instead.
+  from anndata import __version__ as anndata_version
+C:\Users\alam5\AppData\Roaming\Python\Python314\site-packages\anndata\__init__.py:70: FutureWarning: Importing read_csv from `anndata` is deprecated. Import anndata.io.read_csv instead.
+  return module_get_attr_redirect(attr_name, deprecated_mapping=_DEPRECATED)
+C:\Users\alam5\AppData\Roaming\Python\Python314\site-packages\anndata\__init__.py:70: FutureWarning: Importing read_excel from `anndata` is deprecated. Import anndata.io.read_excel instead.
+  return module_get_attr_redirect(attr_name, deprecated_mapping=_DEPRECATED)
+C:\Users\alam5\AppData\Roaming\Python\Python314\site-packages\anndata\__init__.py:70: FutureWarning: Importing read_hdf from `anndata` is deprecated. Import anndata.io.read_hdf instead.
+  return module_get_attr_redirect(attr_name, deprecated_mapping=_DEPRECATED)
+C:\Users\alam5\AppData\Roaming\Python\Python314\site-packages\anndata\__init__.py:70: FutureWarning: Importing read_loom from `anndata` is deprecated. Import anndata.io.read_loom instead.
+  return module_get_attr_redirect(attr_name, deprecated_mapping=_DEPRECATED)
+C:\Users\alam5\AppData\Roaming\Python\Python314\site-packages\anndata\__init__.py:70: FutureWarning: Importing read_mtx from `anndata` is deprecated. Import anndata.io.read_mtx instead.
+  return module_get_attr_redirect(attr_name, deprecated_mapping=_DEPRECATED)
+C:\Users\alam5\AppData\Roaming\Python\Python314\site-packages\anndata\__init__.py:70: FutureWarning: Importing read_text from `anndata` is deprecated. Import anndata.io.read_text instead.
+  return module_get_attr_redirect(attr_name, deprecated_mapping=_DEPRECATED)
+C:\Users\alam5\AppData\Roaming\Python\Python314\site-packages\anndata\__init__.py:70: FutureWarning: Importing read_umi_tools from `anndata` is deprecated. Import anndata.io.read_umi_tools instead.
+  return module_get_attr_redirect(attr_name, deprecated_mapping=_DEPRECATED)
+C:\Users\alam5\AppData\Local\Programs\Python\Python314\Lib\site-packages\louvain\__init__.py:54: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import get_distribution, DistributionNotFound
